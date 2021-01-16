@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用户登录</title>
+    <link rel="stylesheet" href="style/public.css">
+    <link rel="stylesheet" href="style/login.css">
+    <script src="https://cdn.bootcdn.net/ajax/libs/require.js/2.3.6/require.min.js" defer async=true data-main="script/main.js" id="currentpage" data-origin="login_module"></script>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div class="header">
+        <a href="" class="logo"></a>
+        <div class="tips">
+            依据《网络安全法》，为保障您的账户安全和正常使用，请尽快完成手机号绑定验证！《隐私政策》已上线，将更有利于保护您的个人隐私。
+        </div>
+    </div>
+    <div class="main">
+        <div class="login-c">
+            <a href="" class="single-link"></a>
+            <div class="login-form">
+                <div class="login-tab">
+                    <a href="" class="tab-item on"><span>账户登录</span><i></i></a>
+                </div>
+                <form action="" method="post">
+                    <div class="user-box">
+                        <div class="input-box" id="showErrorUsernameDiv">
+                            <input id="userName" type="text" autocomplete="off" value="" tabindex="1" maxlength="64" placeholder="手机号">
+                            <i class="icon username-icon"></i>
+                        </div>
+                    </div>
+                    <div class="pwd-box">
+                        <div class="input-box" id="showErrorPwdDiv">
+                            <input id="password" type="password" autocomplete="off" tabindex="2" placeholder="密码">
+                            <i class="icon password-icon"></i>
+                        </div>
+                    </div>
+                    <input type="button" value="登录" id="login">
+                </form>
+                <a href="registry.html" class="registry-entry">注册有惊喜</a>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

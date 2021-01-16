@@ -1,0 +1,457 @@
+// 好货开抢开始
+body {
+    min-width: 1200px;
+}
+
+.main {
+    width: $page_width;
+    background-color: #f2f2f2;
+    position: relative;
+}
+
+//好货开抢
+.hq-floor {
+    width: $page_width;
+    // height: 596px;
+    overflow: hidden;
+}
+
+.hq-floor-wrap {
+    width: $box_width;
+    margin: 0 auto;
+    // height: 100%;
+    position: relative;
+}
+
+//好货开抢背景图
+.banner-bg {
+    position: absolute;
+    left: 50%;
+    margin-left: -960px;
+}
+
+//好货开抢详情页
+.hq-floor-wrap2 {
+    width: 1200px;
+    height: 446px;
+    margin: 0 auto;
+    position: absolute;
+    top: 150px;
+    left: 0;
+}
+
+.hq-floor-wrap2 .hq-floor-li {
+    width: 230px;
+    height: 213px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.hq-floor-wrap2 .hq-floor-li .hq-floor-p1 {
+    font-size: 20px;
+    line-height: 28px;
+    width: 230px;
+    height: 28px;
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.hq-floor-wrap2 .hq-floor-li .hq-floor-p2 {
+    font-size: 16px;
+    height: 22px;
+    line-height: 22px;
+    color: #ff353f;
+    width: 230px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.cancel-margin-right {
+    margin-right: 0;
+}
+
+.hq-floor-wrap2 .hq-floor-li img {
+    width: 120px;
+    height: 120px;
+    margin: 10px 0 0 50px;
+}
+
+//好货开抢列表
+%tj-size {
+    width: $box_width;
+    height: 298px;
+    border: 1px solid #333;
+    margin: 0 auto 20px;
+}
+
+.tj {
+    border-radius: 4px;
+}
+
+//天天低价
+.tj-floor {
+    width: $box_width;
+    height: 305px;
+    margin: 0 auto;
+    margin-top: 20px;
+    // border: 1px solid #333;
+    padding-bottom: 20px;
+}
+
+.tj-floor div {
+    width: 590px;
+    height: 238px;
+    background-color: #fff;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.tj-floor .tj-floor-title {
+    width: 590px;
+    height: 60px;
+    // background-color: antiquewhite;
+}
+
+//天天低价标题部分
+.tj-floor-title img {
+    width: 106px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 10px;
+    float: left;
+}
+
+.tj-floor-title span {
+    display: block;
+    width: 70px;
+    height: 60px;
+    line-height: 60px;
+    color: #333;
+    float: left;
+    margin-left: 10px;
+}
+
+.tj-floor-timer {
+    float: left;
+    // border: 1px solid #333;
+    margin-top: 18px;
+}
+
+.tj-floor-timer span {
+    background-color: #333;
+    display: block;
+    width: 40px;
+    height: 24px;
+}
+
+.tj-floor-ul {
+    float: left;
+    margin-left: 40px;
+}
+
+.tj-floor-ul li {
+    width: 76px;
+    height: 24px;
+    border: 1px solid red;
+    float: left;
+    margin-top: 18px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 24px;
+    color: red;
+}
+
+.tj-floor-ul li:hover {
+    background-color: red;
+    color: #fff;
+}
+
+.tj-floor-lists {
+    width: 590px;
+    height: 245px;
+    background-color: red;
+    // opacity: 0.6;
+}
+
+.tj-floor-lists-li {
+    width: 170px;
+    height: 238px;
+    // background-color: palegoldenrod;
+    float: left;
+    margin-left: 19px;
+}
+
+.tj-floor-lists-img {
+    width: 150px;
+    height: 150px;
+    background-color: peru;
+    margin: 0 10px 10px 10px;
+}
+
+.tj-floor-lists-title {
+    width: 170px;
+    height: 20px;
+    color: #333;
+    font-size: 14px;
+    line-height: 20px;
+    overflow: hidden;
+    text-align: left;
+    word-break: break-all;
+    font-weight: normal;
+}
+
+.tj-floor-lists-price {
+    height: 21px;
+    margin: 4px 4px 4px 0;
+    overflow: hidden;
+}
+
+.tj-floor-lists-price1 {
+    float: left;
+    line-height: 21px;
+    color: #F30;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.tj-floor-lists-price2 {
+    float: left;
+    line-height: 16px;
+    color: #999;
+    font-size: 12px;
+    margin-left: 6px;
+    margin-top: 3px;
+    text-decoration: line-through;
+}
+
+.tj-floor-lists-line1 {
+    float: left;
+    margin: 9px 0 0 0;
+    width: 100px;
+    height: 6px;
+    background: #fddee0;
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+.tj-floor-lists-line2 {
+    width: 48px;
+    float: left;
+    height: 6px;
+    border-radius: 0 3px 3px 0;
+    background: #ef0027;
+}
+
+.tj-floor-lists-num {
+    float: left;
+    margin-left: 10px;
+    color: #999;
+    font-size: 12px;
+}
+
+.sx-title img {
+    width: 106px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 10px;
+    float: left;
+}
+
+.sx-title span {
+    display: block;
+    width: 100px;
+    height: 60px;
+    line-height: 60px;
+    color: #333;
+    float: left;
+    margin-left: 10px;
+}
+
+.sx .sx-title {
+    width: 590px;
+    height: 60px;
+    // background-color: antiquewhite;
+}
+
+.sx-lists-li {
+    width: 170px;
+    height: 238px;
+    // background-color: palegoldenrod;
+    float: left;
+    margin-left: 19px;
+}
+
+.sx-lists-img {
+    width: 150px;
+    height: 150px;
+    background-color: peru;
+    margin: 0 10px 10px 10px;
+}
+
+.sx-lists-title {
+    width: 170px;
+    height: 20px;
+    color: #333;
+    font-size: 14px;
+    line-height: 20px;
+    overflow: hidden;
+    text-align: left;
+    word-break: break-all;
+    font-weight: normal;
+}
+
+.sx-lists-price {
+    height: 21px;
+    margin: 4px 4px 4px 0;
+    overflow: hidden;
+}
+
+.sx-lists-price1 {
+    float: left;
+    line-height: 21px;
+    color: #F30;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.sx-lists-price2 {
+    float: left;
+    line-height: 16px;
+    color: #999;
+    font-size: 12px;
+    margin-left: 6px;
+    margin-top: 3px;
+    text-decoration: line-through;
+}
+
+.sx-lists-num {
+    float: left;
+    margin-left: 10px;
+    color: #999;
+    font-size: 12px;
+}
+
+.channel-wrap {
+    width: $box_width;
+    margin: 0 auto;
+}
+
+.channel-wrap img {
+    width: $box_width;
+    height: 80px;
+}
+
+//频道广场导航栏
+.channel-tab-nav {
+    width: $box_width;
+    height: 70px;
+    // background-color: #f2f2f2;
+}
+
+.channel-tab-nav-li {
+    float: left;
+    width: 170px;
+    height: 76px;
+    text-align: center;
+    // display: none;
+}
+
+.channel-tab-nav-title {
+    font-size: 17px;
+    font-weight: bold;
+    height: 24px;
+    letter-spacing: .5px;
+    color: #333;
+    line-height: 24px;
+    margin-bottom: 2px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.channel-tab-nav-words span {
+    display: block;
+    height: 26px;
+    line-height: 26px;
+    font-size: 14px;
+    color: #999;
+    padding: 0 10px;
+    border-radius: 3px;
+}
+
+.channel-tab-details-ul .channel-tab-details-li {
+    width: 230px;
+    height: 330px;
+    margin: 0 8px 10px 0;
+    float: left;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.channel-tab-details-ul .channel-tab-details-a {
+    display: block;
+    width: 230px;
+    height: 266px;
+}
+
+.channel-tab-details-ul .channel-tab-details-img {
+    width: 190px;
+    height: 190px;
+    margin: 20px 20px 10px;
+}
+
+.channel-tab-details-ul .channel-tab-details-title {
+    width: 190px;
+    height: 40px;
+    margin: 0 0 8px 20px;
+    overflow: hidden;
+    color: #333;
+    word-break: break-all;
+    font-size: $font16;
+    font: inherit;
+    font: 14px/20px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+}
+
+.channel-tab-details-ul .channel-tab-details-p {
+    width: 190px;
+    height: 18px;
+    margin-left: 20px;
+    overflow: hidden;
+}
+
+.channel-tab-details-ul .channel-tab-details-sale {
+    display: block;
+    float: left;
+    padding: 0 2px;
+    height: 16px;
+    color: #ff8000;
+    font: 14px/16px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+    background: #fff;
+    border: 1px solid #ff8000;
+    margin-right: 7px;
+    border-radius: 3px;
+    margin-bottom: 2px;
+    white-space: nowrap;
+}
+
+.channel-tab-details-p1 {
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.channel-tab-details-saleprice {
+    line-height: 28px;
+    color: #F30;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.channel-tab-details-price {
+    font-size: 13px;
+    line-height: 18px;
+    color: #999;
+    margin-left: 6px;
+    text-decoration: line-through;
+}

@@ -1,0 +1,11 @@
+$page_width:100%;
+$box_width:1190px;
+$box_height:200px;
+$font12:12px;
+$font14:14px;
+$font16:16px;
+@import "public";
+@import "top"; //头部
+@import "banner"; //banner
+@import "main";
+@import "footer";

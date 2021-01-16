@@ -1,0 +1,131 @@
+//头部广告
+.top-active {
+    width: $page_width;
+    height: 100px;
+    background-color: red;
+    position: relative;
+}
+
+.top-active-wrap {
+    width: $box_width;
+    height: 100px;
+    margin: 0 auto;
+}
+
+#TOP-CLOSE-BTN {
+    position: absolute;
+    top: 3px;
+    right: 56px;
+    width: 15px;
+    height: 15px;
+    background: url(https://res.suning.cn/project/cmsWeb/suning/homepage/v8/css/images/index.png?v=2020112301) -241px -145px;
+}
+
+// 头部导航栏
+%rec-size {
+    color: #666;
+    font-size: $font12;
+    display: block;
+    width: 65px;
+    line-height: 35px;
+}
+
+.new-rec-tab {
+    width: $page_width;
+    background-color: #eee;
+    //头部导航栏版心
+    .new-rec-tab-wrap {
+        width: $box_width;
+        height: 35px;
+        margin: 0 auto;
+        //头部导航栏左侧
+        .new-rec-tab-left a {
+            float: left;
+            @extend %rec-size;
+        }
+        .admin {
+            float: left;
+            @extend %rec-size;
+            width: 220px;
+            height: 35px;
+        }
+        .admin .title {
+            float: left;
+            @extend %rec-size;
+            margin-left: 10px;
+        }
+        .admin span {
+            float: left;
+            @extend %rec-size;
+        }
+        .admin a {
+            float: right;
+            @extend %rec-size;
+            width: 30px;
+            margin-left: 30px;
+        }
+        .new-rec-tab-left a:hover {
+            color: orange;
+        }
+        //头部导航栏右侧
+        .new-rec-tab-right {
+            float: right;
+        }
+        .new-rec-tab-right a {
+            float: left;
+            @extend %rec-size;
+        }
+        .new-rec-tab-right a:hover {
+            color: orange;
+        }
+    }
+}
+
+//头部标题+搜索框版心
+.searchKeyWords {
+    width: $box_width;
+    height: 110px;
+    margin: 0 auto;
+    .searchKeyWords-a1 img {
+        width: 190px;
+        height: 90px;
+        float: left;
+    }
+    .searchKeyWords-a2 img {
+        float: left;
+    }
+    .search-keyword-box {
+        width: 390px;
+        height: 40px;
+        border-radius: 12px 0 0 12px;
+        border: 3px solid orange;
+        float: left;
+        margin-top: 30px;
+        border-right: none;
+    }
+    .search-keyword-box span {
+        font-size: 18px;
+        color: #ccc;
+        line-height: 40px;
+        margin-left: 10px;
+    }
+    .search-keyword-box input {
+        width: 340px;
+        color: #333;
+        border: none;
+        outline: none; //去掉输入内容时input的外边框
+    }
+    .search-keyword-input {
+        width: 120px;
+        height: 44px;
+        background-color: #ff8000;
+        cursor: pointer;
+        border: none;
+        margin-top: 30px;
+        border-radius: 0 12px 12px 0;
+        font-size: 18px;
+        font-weight: 700;
+        color: #fff;
+        text-align: center;
+    }
+}

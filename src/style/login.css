@@ -1,0 +1,160 @@
+.header {
+    width: 970px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    width: 189px;
+    height: 100%;
+    background: url(https://res.suning.cn/project/passport/login/b2c_V7/image/header190-60.png) center no-repeat;
+}
+
+.tips {
+    float: left;
+    color: #333;
+    background: #fefff1;
+    border: 1px solid #fecd66;
+    line-height: 16px;
+    padding: 4px 6px;
+    font: 12px/1.5 arial, tahoma, \5b8b\4f53;
+    margin-top: 36px;
+    margin-left: 20px;
+}
+
+.login-c {
+    width: 970px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.main {
+    background: url(https://image.suning.cn/uimg/cms/img/160231503165526858.jpg) center no-repeat;
+    height: 570px;
+    min-width: 970px;
+}
+
+.login-form {
+    float: right;
+    position: relative;
+    width: 360px;
+    height: 410px;
+    margin-top: 50px;
+    background: #fff;
+}
+
+.login-tab {
+    height: 50px;
+    line-height: 20px;
+    font-size: 16px;
+    overflow: hidden;
+    border-bottom: 1px solid #eee;
+}
+
+.tab-item {
+    position: relative;
+    float: left;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+}
+
+.tab-item span {
+    display: block;
+    border-right: 1px solid #eee;
+    margin-top: 15px;
+    font-size: 18px;
+    color: #333;
+}
+
+.tab-item i {
+    display: none;
+    position: absolute;
+    width: 70px;
+    height: 4px;
+    background: #f60;
+    bottom: -1px;
+    left: 50%;
+    margin-left: -35px;
+}
+
+.user-box {
+    width: 312px;
+    height: 38px;
+    border: 1px solid #ddd;
+    margin-left: 24px;
+    margin-top: 30px;
+}
+
+.pwd-box {
+    width: 312px;
+    height: 38px;
+    border: 1px solid #ddd;
+    margin-left: 24px;
+    margin-top: 20px;
+}
+
+.input-box {
+    position: relative;
+    border: 1px solid #ddd;
+    color: #999;
+    padding: 0 32px 0 36px;
+    height: 36px;
+    overflow: hidden;
+}
+
+#userName {
+    height: 38px;
+    line-height: 38px;
+    border: none;
+    outline: none;
+}
+
+.username-icon {
+    background: url(https://res.suning.cn/project/passport/login/b2c_V7/image/sprite.png?v=1541648459319) -123px -67px no-repeat;
+}
+
+.icon {
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.password-icon {
+    background: url(https://res.suning.cn/project/passport/login/b2c_V7/image/sprite.png?v=1541648459319) 0 -108px no-repeat;
+}
+
+#password {
+    height: 38px;
+    line-height: 38px;
+    border: none;
+    outline: none;
+}
+
+#login {
+    /* display: block; */
+    width: 310px;
+    height: 38px;
+    line-height: 38px;
+    background: #f60;
+    border-radius: 2px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 24px;
+    border: none;
+    outline: none;
+}
+
+.registry-entry {
+    color: orange;
+    font-size: 14px;
+    margin-left: 150px;
+    margin-top: 20px;
+}

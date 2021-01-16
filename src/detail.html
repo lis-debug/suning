@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>商品详情页</title>
+    <!-- 放大镜字体图标 -->
+    <link rel="stylesheet" href="fonts/font_6lp80c09c2u/iconfont.css">
+    <link rel="stylesheet" href="style/detail.css">
+    <script src="https://cdn.bootcdn.net/ajax/libs/require.js/2.3.6/require.min.js" defer async=true data-main="script/main.js" id="currentpage" data-origin="detail_module"></script>
+</head>
+
+<body>
+    <!-- 头部导航栏 -->
+    <div class="new-rec-tab">
+        <!-- 头部导航栏版心 -->
+        <div class="new-rec-tab-wrap">
+            <div class="new-rec-tab-left">
+                <a href=""><span>网站导航</span></a>
+                <a href=""><span>商家入驻</span></a>
+                <a href=""><span>客户服务</span></a>
+                <a href=""><span>杭州</span></a>
+            </div>
+            <div class="new-rec-tab-right">
+                <a href=""><span>请登录</span></a>
+                <a href=""><span>注册有礼</span></a>
+                <a href=""><span>我的订单</span></a>
+                <a href=""><span>我的易购</span></a>
+                <a href=""><span>苏宁会员</span></a>
+                <a href="cart.html"><span>购物车</span></a>
+                <a href=""><span>易付宝</span></a>
+                <a href=""><span>企业采购</span></a>
+                <a href=""><span>手机苏宁</span></a>
+            </div>
+        </div>
+    </div>
+    <!-- 头部标题+搜索框版心 背景白色http://image1.suning.cn/uimg/cms/img/159642507148437980.png -->
+    <div class="searchKeyWords">
+        <a href="" title="苏宁易购" class="searchKeyWords-a1">
+            <img src="http://image1.suning.cn/uimg/cms/img/159642507148437980.png" alt="苏宁易购">
+        </a>
+        <a href="" class="searchKeyWords-a2">
+            <img src="http://image5.suning.cn/uimg/cms/img/160758949981925347.gif" alt="">
+        </a>
+        <!-- 搜索框盒子 -->
+        <!-- 信息需要提交到后端 -->
+        <form action="">
+            <!-- 搜索框 问题：js中实现输入内容placeholder中文字消失-->
+            <div class="search-keyword-box">
+                <span class="iconfont icon-magnifier"></span>
+                <input type="text" placeholder="输入关键字搜索商品/品牌/店铺" />
+            </div>
+            <input type=" submit " class="search-keyword-inputs" value="搜索 ">
+        </form>
+
+    </div>
+    <!-- 商品详情版心 -->
+    <div class="details-wrap">
+        <div class="left-img">
+            <!-- 详情页图片盒子 -->
+            <div id="img-box">
+                <img src="" alt="" id="pic">
+                <div id="sf"></div>
+            </div>
+            <!-- 放大后的图片 -->
+            <div id="bigPic">
+                <img src="" alt="" id="bPic">
+            </div>
+            <div id="ulist">
+                <div id="list">
+                    <!-- <ul>
+
+                    </ul> -->
+                </div>
+            </div>
+        </div>
+        <div class="right-details">
+            <div class="pro-title">
+                <h1 class="item-name">标题标题</h1>
+                <h2 class="item-desc">描述描述</h2>
+            </div>
+            <!-- 价格 -->
+            <div class="price-container">
+                <p class="ckPrice">参考价：￥<span class="ckPrice-sp1"></span></p>
+                <p class="ckPrice">活动价：<span class="fh">￥</span><span class="ckPrice-sp2"></span></p>
+            </div>
+            <!-- 购物车 -->
+            <div class="gwc-box">
+                <span class="gwc-num">数量</span>
+                <input type="text" id="count" value="1">
+                <a href="javascript:;" id="addCart">加入购物车</a>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

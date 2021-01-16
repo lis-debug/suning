@@ -1,0 +1,300 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.new-rec-tab {
+    width: 100%;
+    background-color: #eee;
+}
+
+.new-rec-tab-wrap {
+    width: 1190px;
+    height: 35px;
+    margin: 0 auto;
+}
+
+.new-rec-tab-left a {
+    float: left;
+    color: #666;
+    font-size: 12px;
+    display: block;
+    width: 65px;
+    line-height: 35px;
+}
+
+.new-rec-tab-left a:hover {
+    color: orange;
+}
+
+.new-rec-tab-right {
+    float: right;
+}
+
+.new-rec-tab-right a {
+    float: left;
+    color: #666;
+    font-size: 12px;
+    display: block;
+    width: 65px;
+    line-height: 35px;
+}
+
+.new-rec-tab-right a:hover {
+    color: orange;
+}
+
+.searchKeyWords {
+    width: 1190px;
+    height: 110px;
+    margin: 0 auto;
+}
+
+.searchKeyWords-a1 img {
+    width: 190px;
+    height: 90px;
+    float: left;
+}
+
+.searchKeyWords-a2 img {
+    float: left;
+}
+
+.search-keyword-box {
+    width: 390px;
+    height: 40px;
+    border-radius: 12px 0 0 12px;
+    border: 3px solid orange;
+    float: left;
+    margin-top: 30px;
+    border-right: none;
+}
+
+.search-keyword-box span {
+    font-size: 18px;
+    color: #ccc;
+    line-height: 40px;
+    /* margin-left: 4px; */
+}
+
+.search-keyword-box input {
+    width: 340px;
+    color: #333;
+    border: none;
+    outline: none;
+}
+
+.search-keyword-inputs {
+    width: 120px;
+    height: 44px;
+    background-color: #ff8000;
+    cursor: pointer;
+    border: none;
+    margin-top: 30px;
+    border-radius: 0 12px 12px 0;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+
+.pro-title .item-name {
+    font: 700 16px/1.5 \5FAE\8F6F\96C5\9ED1;
+    color: #222;
+    _margin-left: -3px;
+    word-break: break-all;
+    min-height: 24px;
+}
+
+.pro-title .item-desc {
+    font: normal 14px/18px \5FAE\8F6F\96C5\9ED1;
+    color: #f60;
+    margin-top: 3px;
+    _margin-left: -3px;
+    word-break: break-all;
+}
+
+.price-container {
+    width: 400px;
+    height: 132px;
+    padding-top: 20px;
+}
+
+.price-container .ckPrice {
+    color: #999;
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 36px;
+}
+
+.price-container .ckPrice-sp1 {
+    font-family: Tahoma;
+    font-size: 14px;
+    color: #999;
+    text-decoration: line-through;
+}
+
+.price-container .ckPrice-sp2 {
+    height: 28px;
+    font: 700 30px/25px Tahoma;
+    color: #e00;
+    line-height: 30px;
+}
+
+.ckPrice .fh {
+    height: 28px;
+    font: 700 30px/25px Tahoma;
+    color: #e00;
+    line-height: 30px;
+}
+
+.gwc-box {
+    margin-top: 20px;
+}
+
+.gwc-in {
+    width: 30px;
+    height: 30px;
+    /* border: 1px solid #999; */
+}
+
+#list {
+    width: 420px;
+    float: left;
+    height: 60px;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-left: 20px;
+    margin-top: 5px;
+    background-color: #222;
+    position: absolute;
+    top: 455px;
+    left: 0;
+}
+
+#list .details-img {
+    width: 60px;
+    height: 60px;
+}
+
+#list .details-li {
+    float: left;
+}
+
+.details-wrap {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+
+/* 左边的盒子 */
+
+.left-img {
+    float: left;
+    width: 452px;
+    height: 452px;
+    border: 1px solid #333;
+    position: relative;
+}
+
+
+/* 详情页图片盒子 */
+
+#img-box {
+    width: 450px;
+    height: 450px;
+    border: 1px solid #eee;
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#pic {
+    width: 450px;
+    height: 450px;
+}
+
+#sf {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    cursor: move;
+    border: 1px solid #aaa;
+    background: #fede4f;
+    opacity: 0;
+}
+
+#bigPic {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 450px;
+    top: 0;
+    border: 1px solid #eee;
+    overflow: hidden;
+    opacity: 0;
+}
+
+#bPic {
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: red;
+}
+
+
+/* 右边的盒子 */
+
+.right-details {
+    padding: 20px;
+    float: left;
+    margin-left: 20px;
+}
+
+.gwc-box input {
+    /* display: inline-block; */
+    width: 50px;
+    height: 46px;
+    font-size: 20px;
+    font-family: "微软雅黑";
+    color: black;
+    margin-left: 20px;
+    border: 1px solid gray;
+}
+
+.gwc-box a {
+    display: block;
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    font-size: 16px;
+    font-family: "微软雅黑";
+    color: white;
+    line-height: 50px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.gwc-box {
+    margin-top: 180px;
+}
+
+#addCart {
+    background: #f50;
+    color: #fff;
+    font: 16px/40px microsoft yahei;
+    font-weight: 600;
+    border-radius: 3px;
+    width: 135px;
+    height: 40px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 30px;
+}
